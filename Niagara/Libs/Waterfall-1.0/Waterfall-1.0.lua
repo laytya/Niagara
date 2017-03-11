@@ -12,7 +12,7 @@ Dependencies: AceOO-2.0
 ]]
 
 local MAJOR_VERSION = "Waterfall-1.0"
-local MINOR_VERSION = "$Revision: 78661 $"
+local MINOR_VERSION = "$Revision: 78662 $"
 
 local CONTROL_LIMIT = 250
 local _
@@ -2595,7 +2595,7 @@ function WaterfallHeading.prototype:Refresh()
 		self:SetWidth(self.width)
 	else
 		self.text:ClearAllPoints()
-		self.text:SetPoint("LEFT")
+		self.text:SetPoint("LEFT",self.frame,"LEFT")
 		self.frame:SetScript("OnUpdate", labelFixWidth)
 	end
 	self.text:SetJustifyH(self.justifyH or "LEFT")
@@ -4439,7 +4439,7 @@ function WaterfallTreeLine.prototype:init()
 
 
 	expand:SetPoint("LEFT",frame,"LEFT",0,0)
-	text:SetPoint("LEFT",icon,"RIGHT",0,0)
+	text:SetPoint("LEFT",icon,"RIGHT",2,0)
 	text:SetPoint("RIGHT",frame,"RIGHT",0,0)
 
 	frame.obj = self
