@@ -27,6 +27,21 @@ L:RegisterTranslations("enUS", function() return {
     ["AddOns in category %q."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+	["Open"] = "Открыть",
+	["Opens GUI"] = "Открывает графический интерфейс",
+	["Toggle Category view"] = "Переключить вид категорий",
+	["Disabled"] = "Отключен",
+	["Categories"] = "Категории",
+	["Enabled"] = "Включен",
+	["TreeType"] = nil,
+	["Toggle Tree types"] = nil,
+	["Click To Open GUI"]= "Нажмите, чтобы открыть графический интерфейс",
+    ["No description provided."] = "Нет описания.",
+    ["Others"] = "Другие",
+    ["AddOns in category %q."] = "Дополнения в категории %q.",
+} end)
+
 L:RegisterTranslations("koKR", function() return {
 	["Open"] = "열기",
 	["Opens GUI"] = "GUI창을 엽니다",
