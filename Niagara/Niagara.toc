@@ -3,6 +3,7 @@
 ## Title: Niagara |cff7fff7f -Ace2-|r
 ## Version: 1.1
 ## Notes: Makes an Interface for ace2 /commands using Waterfall.
+## Notes-ruRU: Делает интерфейс для ace2 /commands используя Waterfall.
 ## OptionalDeps: Ace2, FuBar, FuBarPlugin-2.0, Waterfall-1.0, TabletLib, DewdropLib
 ## X-Embeds: Ace2, FuBarPlugin-2.0, TabletLib, Waterfall-1.0
 ## X-Category: Miscellaneous
